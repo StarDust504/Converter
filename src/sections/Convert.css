@@ -1,0 +1,41 @@
+button {
+    height: fit-content;
+}
+
+.conv {
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currencySelection {
+    /* height: 60%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputField, .currencyList {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* height: 40%; */
+    justify-content: space-around;
+}
+
+.inputField {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.currencyList {
+    width: fit-content;
+}
+
+.switcher {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}

@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pages, .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.buttons {
+    height: 5vh;
+    width: 100vw;
+}
+
+.pages {
+    width: 100%;
+}
